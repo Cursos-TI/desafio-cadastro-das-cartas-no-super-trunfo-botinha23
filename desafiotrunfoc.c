@@ -25,8 +25,8 @@ int main() {
     scanf("%f", &pib);
 
     printf("Entre com o numero de pontos turisticos\n");
-    scanf("%d\n ", &turisticos);
-    printf(" %d\n", turisticos);
+    scanf(" %d", &turisticos);
+    printf("%d", turisticos);
 
     printf("Cidade: %s - Codigo da cidade: %s\n", nome_cidade, codigo_da_cidade);
     printf("População: %F - Área: %e\n", populacao, area);
